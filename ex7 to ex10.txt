@@ -1,0 +1,98 @@
+ex7
+-----
+<!-- example on title & link tags
+title tag ==> used to set title for a webpage
+			    ==> title displaying in title bar (top of browser)
+				==> its setting not designing, hence this tag should be used in "head" section
+				==> its paired tag
+			Syn:	<title> text </title>
+				web site => 10pages => 10titles
+
+link tag ==> used to set icon(logo),  used to access external styles, to access other libs
+			  ==> currently we are using to set logo for web page
+		 	  ==> its setting not designing, hence this tag must be used in "head" section
+				==> its unpaired tag
+			Syn:	<link  rel="icon"  href="filename"/>
+								.ico			.pnp		.jpg
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>My 1st Web page</title>
+	    <link rel="icon" href="logo2.png"/>
+	 </head>
+  <body>
+	<h2>demo on setting title & logo</h2>
+  </body>
+</html>
+
+ex8
+-----
+<!-- example on img tag -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>My 2nd Web page</title>
+	    <link rel="icon" href="logo2.png"/>
+	 </head>
+  <body>
+	<h2>demo on displaying images</h2>
+	<img src="e:/html730/images/nature.jpg"/>
+		<!-- OR	src="https://www.sitename.com/images/nature.jpg" -->
+	<img  src="images/water.jpg" width="150px" height="300px">
+	<br>
+	<img  src="images/bot.gif" width="60%" height="300px">
+	<img src="images/animal.jpg" width="300px" height="400px" title=" Soooo cute!!1"/> 
+	<br>
+	<img src="images/flowers.webp" width="200px" height="300px" alt=" image not loaded, try again"/>
+
+  </body>
+</html>
+
+ex9
+-----
+<!-- example on a tag -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex9</title>
+	    <link rel="icon" href="logo2.png"/>
+	 </head>
+  <body>
+	<h2>demo on hyperlinks </h2>
+	<a href="e:/html730/ex5.html"> goto Ex5 </a>
+		<!--	href="https://www.sitename.com/abc.html" -->
+	<a href="ex6.html"> goto Ex6 </a>
+	<br>
+    <a href="https://www.facebook.com/login.php">facebook</a>
+	<br>
+    <a target="_blank" href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles"> <img src="images/mob.png"/> <br>Mobiles </a>
+  </body>
+</html>
+
+ex10
+-------
+<!-- example on a tag -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex10</title>
+	    <link rel="icon" href="logo2.png"/>
+	 </head>
+  <body>
+	<h2>demo on hyperlinks </h2>
+	<a href="files/Application.pdf"> Click here to Apply Job</a>
+	<br>
+ 	<a href="files/HTML Notes Part - 1.docx">Html document</a>
+	<br>
+	<a href="files/TeamViewer_Setup_x64.exe"> Download Teamviewer</a>
+	<br>
+	<a href="files/Toofan.mp3"> play audio</a>
+	<br>
+	<a href="files/cricket.mp4">play video</a>
+	<br>
+	<a href="images/flowers.webp">  
+		<img src="images/flowers.webp" width="100px" height="100px"/>		</a>
+
+  </body>
+</html>

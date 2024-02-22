@@ -1,0 +1,59 @@
+ex19
+-------
+<!-- example on fieldset & legend tags
+any css prop => 1word						widht height color border
+						=> multiple words
+							list-style-type, list-style-image, font-size, font-family
+
+border ==> css prop, used to draw a line or to modify an existing border
+	Syn:	border:thick  style  color;
+style -> solid/dotted/dashed/double/inset/outset/groove/ridge/none
+
+font-size ==> css prop, used to change size of text
+	Syn:	font-size:px;
+
+font-family ==> css prop. used to change text writing style, means changing font name
+	Syn:	font-family:f1, f2, f3;
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex19</title>
+	    <link rel="icon" href="logo2.png"/>
+		<style>
+			img{
+				width:200px;
+				height:200px;
+			}
+		</style>
+	</head>
+  <body>
+	<fieldset>
+		<h2>Apples</h2>
+		<h2>Mangos</h2>
+		<h3>Grape</h3>
+		<h4>Banana</h4>
+	</fieldset>
+	<BR>
+
+	<fieldset style="border:10px solid red; width:650px;" align="center">
+		<legend style="font-size:36px; font-family:Forte; color:blue;">My Photos</legend>
+		<img src="images/flowers.webp"/>
+		<img src="images/flower.png"/>
+		<img src="images/nature.jpg"/>
+		<img src="images/water.jpg"/>
+		<img src="images/nature1.jpg"/>
+		<img src="images/nature2.jpg"/>
+	</fieldset>
+
+	<fieldset style="border:10px solid red; width:650px;" align="center">
+		<legend style="font-size:36px; font-family:Forte; color:blue;">My Photos</legend>
+		<img src="images/flowers.webp"/>
+		<img src="images/flower.png"/>
+		<img src="images/nature.jpg"/>
+		<img src="images/water.jpg"/>
+		<img src="images/nature1.jpg"/>
+		<img src="images/nature2.jpg"/>
+	</fieldset>
+  </body>
+</html>

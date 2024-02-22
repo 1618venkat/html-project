@@ -1,0 +1,266 @@
+ex13
+-------
+<!-- example on css implementations -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex13</title>
+	    <link rel="icon" href="logo2.png"/>
+		<link rel="stylesheet" href="mystyles.css"/> <!-- linking external css-->
+	</head>
+  <body>
+	<h2>demo on external styles</h2>
+	<h1>Hypertext Markup Language</h1>
+ 	<h1>Cascading Style Sheets</h1>
+ 	<h1>JavaScript</h1>
+ 	<h1>Bootstrap</h1>
+	<h2>Servlet</h2>	<h2>ASP.net</h2>		<h2>PHP</h2>
+  </body>
+</html>
+
+ex14
+-------
+<!-- example on css implementations -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex14</title>
+	    <link rel="icon" href="logo2.png"/>
+		<link rel="stylesheet" href="mystyles.css"/> <!-- linking external css-->
+		<style>
+			h3{
+				color:cyan;
+			}
+		</style>
+	</head>
+  <body>
+	<h1>Hypertext Markup Language</h1>
+ 	<h1>Cascading Style Sheets</h1>
+ 	<h1>JavaScript</h1>
+ 	<h2>Bootstrap</h2>
+ 	<h2>Ajax</h2>
+ 	<h3>Angular</h3>
+ 	<h3>React</h3>
+ 	<h3>Node</h3>
+	<p style="color:hotpink;">EDITPLUS IS SOLD "AS IS" AND WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTIES EITHER EXPRESSED OR IMPLIED. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.</p>
+
+  </body>
+</html>
+
+ex15
+-------
+<!-- example on css implementations -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex14</title>
+	    <link rel="icon" href="logo2.png"/>
+		<link rel="stylesheet" href="mystyles.css"/> <!-- linking external css-->
+		<style>
+			h1{
+				color:cyan;
+			}
+		</style>
+	</head>
+  <body>
+	<h1>Hypertext Markup Language</h1>
+ 	<h1 style="color:red;">Cascading Style Sheets</h1>
+ 
+  </body>
+</html>
+
+mystyles.css
+------------------
+/* example on creating external styles */
+h1{
+	color:green;
+}
+h2{
+	color:red;
+}
+/* Note: save this file with a name "mystyles.css" in current location */
+
+/*
+1.  run css file directly?
+		no
+2. if run css file directly?
+		source code display
+
+1.  run js file directly?
+		no
+2. if run js file directly?
+		source code display	*/
+	
+ex16
+-------
+<!-- example on list tags -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex16</title>
+	    <link rel="icon" href="logo2.png"/>
+	</head>
+  <body>
+	<H3>demo on ordered list</h3>
+
+	<h3>How do I make a payment using Flipkart's credit card EMI option?</h3>
+	<ol>
+		<li>Choose your credit-card issuing bank you wish to pay from</li>
+		<li>Select the EMI plan of your preference</li>
+		<li>Enter your credit card details</li>
+		<li>Click 'Save and Pay'</li>
+	</ol>
+	<hr/> <!-- it draws a line horizontally from left edge to right edge -->
+ 
+	<h3>How do I make a payment using Flipkart's credit card EMI option?</h3>
+	<ol type="A" start="52" reversed>
+		<li>Choose your credit-card issuing bank you wish to pay from</li>
+		<li>Select the EMI plan of your preference</li>
+		<li>Enter your credit card details</li>
+		<li>Click 'Save and Pay'</li>
+	</ol>
+
+	<!-- nested list -->
+	<h3>List of Car Models</h3>
+	<ol style="color:red;">				<!-- main list -->
+		<li>Tata Cars</li>
+				<ol type="i" style="color:blue;">		<!-- sub list -->
+					<li>Tata Nexon &#8377;7.59 Lakh</li>
+					<li>Tata Punch &#8377;5.93 Lakh</li>
+					<li>Tata Altroz &#8377;6.29 Lakh</li>
+					<li>Tata Harrier &#8377;14.69 Lakh</li>
+				</ol>	
+		<li>Hyundai Cars</li>
+				<ol type="i" style="color:blue;">		<!-- sub list -->
+					<li>Hyundai Tucson &#8377;26.00 Lakh</li>
+					<li>Hyundai Venue &#8377;7.53 Lakh</li>
+					<li>Hyundai Creta &#8377;10.44 Lakh</li>
+					<li>Hyundai Grand i10 Nios &#8377;5.39 Lakh</li>
+					<li>Hyundai i20 &#8377;7.03 Lakh</li>
+				</ol>	
+	</ol>
+  </body>
+</html>
+
+ex17
+-------
+<!-- example on list tags -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex17</title>
+	    <link rel="icon" href="logo2.png"/>
+	</head>
+  <body>
+	<H3>demo on unordered list</h3>
+	<img src="images/mobile.webp"/>
+	<h3>POCO C31 (Royal Blue, 64 GB)</h3>
+	<ul type="square">
+		<li>4 GB RAM | 64 GB ROM | Expandable Upto 512 GB</li>
+		<li>16.59 cm (6.53 inch) HD+ Display</li>
+		<li>13MP + 2MP + 2MP | 5MP Front Camera</li>
+		<li>5000 mAh Lithium-ion Polymer Battery</li>
+		<li>MediaTek Helio G35 Processor</li>
+		<li>1 Year Warranty for Handset, 6 Months for Accessories</li>	
+	</ul>
+	<hr/> 
+
+ 	<!-- nested list -->
+	<h3>List of Car Models</h3>
+	<Ul style="color:red;">				<!-- main list -->
+		<li>Tata Cars</li>
+				<Ul  style="color:blue;">		<!-- sub list -->
+					<li>Tata Nexon &#8377;7.59 Lakh</li>
+					<li>Tata Punch &#8377;5.93 Lakh</li>
+					<li>Tata Altroz &#8377;6.29 Lakh</li>
+					<li>Tata Harrier &#8377;14.69 Lakh</li>
+				</Ul>	
+		<li>Hyundai Cars</li>
+				<Ul  style="color:blue;">		<!-- sub list -->
+					<li>Hyundai Tucson &#8377;26.00 Lakh</li>
+					<li>Hyundai Venue &#8377;7.53 Lakh</li>
+					<li>Hyundai Creta &#8377;10.44 Lakh</li>
+					<li>Hyundai Grand i10 Nios &#8377;5.39 Lakh</li>
+					<li>Hyundai i20 &#8377;7.03 Lakh</li>
+				</Ul>	
+	</Ul>
+  </body>
+</html>
+
+ex18
+-------
+<!-- example on css lists 
+list-style-type ==> css prop, used to specify type of oderlist & un-order  list.
+	Syn:	list-style-type:decimal/upper-alpha/lower-alpha/lower-roman/upper-roman/disc/circle/sqaure/lower-greek/leading-zero-decimal/none;
+
+list-style-image ==> css prop, used to display an image as a bulleting style
+	Syn:-		list-style-image:url(filename);
+
+marker ==> css selector(element), used to change the color of numbers & bullets, but ot data color
+	Syn:-			ul/ol::marker{
+							prop:value;
+							prop:value;
+							...
+						}
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex18</title>
+	    <link rel="icon" href="logo2.png"/>
+		<style>
+			ol{
+				color:blue;
+				list-style-type:lower-greek;
+			}
+			ul{
+				list-style-image:url(images/b.webp);
+			}
+			 li::marker{
+				color:red;
+			}
+		</style>
+	</head>
+  <body>
+	<H3>demo on css lists</h3>
+	<ol>
+		<li>Red</li>	<li>Green</li>		<li>Yellow</li>	<li>Blue</li>
+	</ol>
+	<hr>
+	<ul>
+		<li>HTML</li>	<li>CSS</li>	<li>JavaScript</li>	<li>Ajax</li>
+		<li>JQuery</li>
+	</ul>
+	<hr>
+	<ul >	
+		<li style="list-style-image:url(images/b1.png);">HTML</li>	
+		<li style="list-style-image:url(images/b2.png);">CSS</li>	
+		<li style="list-style-image:url(images/b3.png);">JavaScript</li>	
+		<li style="list-style-image:url(images/b4.png);">Ajax</li>
+		<li style="list-style-image:url(images/b5.png);">JQuery</li>
+	</ul>		
+	<hr>
+  </body>
+</html>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

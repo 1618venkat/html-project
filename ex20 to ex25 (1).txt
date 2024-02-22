@@ -1,0 +1,231 @@
+ex20
+-------
+<!-- css selectors
+universal selector:
+  ==> used to define common styles for all html tag/elements
+  ==> global styles for a webpage
+  ==> 1 universal sel per 1 webpage
+	Syn:		*{
+						property:value;
+						property:value;
+						......
+					}
+
+Note: selectors we can define either internal mode or external mode.
+			inline css not supports selectors
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex20</title>
+	    <link rel="icon" href="logo2.png"/>
+		<style>
+			*{
+				color:red;
+			}
+		</style>
+	</head>
+  <body>
+		welcome
+		<h1>apple</h1>
+		<h1>mango</h1>
+		<h2>orange</h2>
+		<h3>grape</h3>
+		<label>username</label>
+		<span>*</span>
+		<ol>
+			<li>One</li>		<li>Two</li>		<li>Three</li>
+		</ol>
+  </body>
+</html>
+
+ex21
+-------
+<!--
+tag selector:
+  ==> used to define common styles for "all instances" of specific html tag/element
+ ==> styles applied on only 1 tag
+ ==> we can define no.of tag selectors
+	Syn:		tag-name {
+						property:value;
+						property:value;
+						......
+					}
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex21</title>
+	    <link rel="icon" href="logo2.png"/>
+		<style>
+			h1{
+				color:red;
+			}
+			p{
+				color:blue;
+			}
+		</style>
+	</head>
+  <body>
+		<h1>apple</h1>
+		<p>Supports Windows 10/11 dark mode ('Preferences'->'Colors'->'Follow system dark mode')</p>
+		<h1>mango</h1>
+		<P>Adds a button in the Find dialog box that opens Replace dialog box. </P>
+		<h1>orange</h1>
+		<P>Allows 'Larger Font Size' and 'Smaller Font Size' commands in hex viewer mode.</P>
+		<h1>grape</h1>
+		<h1>banana</h1>
+  </body>
+</html>
+
+ex22
+-------		
+<!--
+ID Selector:
+  ==> used to define styles for "1 instance" of specific html tag/element
+ ==> styles applied on only 1 tag
+ ==> we can define no.of id selectors
+	Syn:		#id-name{
+						property:value;
+						property:value;
+						......
+					}
+mapping ==> specifying the selector belongs to which tag
+				  ==> we can map by using "id" html attribute
+				  ==> we can map only 1 id selector to a html tag
+		SYn:		<tag-name  id="id-name" >
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex22</title>
+	    <link rel="icon" href="logo2.png"/>
+		<style>
+			#id1{
+				color:red;
+			}
+			#id2{
+				color:blue;
+			}
+			#test{
+				color:green;
+			}
+		</style>
+	</head>
+  <body>
+		<h1 id="id1">Samsung</h1>
+		<h1 id="id2">LG</h1>
+		<h1 id="test">Sony</h1>
+		<!-- its not valid -->
+		<P id="id1">Adds a button in the Find dialog box that opens Replace dialog box. </P>
+		<P>Allows 'Larger Font Size' and 'Smaller Font Size' commands in hex viewer mode.</P>
+  </body>
+</html>
+
+ex23
+-------
+<!--
+Class Selector:
+  ==> used to define common styles for "multiple(group) instances" of specific html tag/element
+  ==> used to define common styles for group of html tags/elements
+ ==> styles applied on only no.of tags
+ ==> we can define no.of class selectors
+	Syn:		.class-name{
+						property:value;
+						property:value;
+						......
+					}
+mapping ==> specifying the selector belogns to which tag
+				  ==> we can map by using "class" html attribute
+				  ==> we can map no.of class selectors to a same html tag
+		SYn:		<tag-name  class="class-name" >
+				<tag-name  class="class-name  class-name  ..." >
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex23</title>
+	    <link rel="icon" href="logo2.png"/>
+		<style>
+			.c1{
+				color:red;
+			}
+			.c2{
+				color:blue;
+			}
+		</style>
+	</head>
+  <body>
+		<h1 class="c1">Samsung</h1>
+		<h1 class="c1">LG</h1>
+		<h1 class="c2">Sony</h1>
+		<h1 class="c2">Onida</h1>
+  </body>
+</html>
+
+ex24
+-------		
+<!-- Class Selector:
+ ==> used to define common styles for group of html tags/elements
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex24</title>
+	    <link rel="icon" href="logo2.png"/>
+		<style>
+			.test{
+				color:red;
+			}
+			.demo{
+				color:blue;
+			}
+		</style>
+	</head>
+  <body>
+		<h1 class="test">Samsung</h1>
+		<h2 class="test">Sony</h2>
+		<h2 class="test">Onida</h2>
+		<P class="test">Adds a button in the Find dialog box that opens Replace dialog box. </P>
+		<hr>
+		<h1 class="demo">LG</h1>
+		<P class="demo">Allows 'Larger Font Size' and 'Smaller Font Size' commands in hex viewer mode.</P>
+  </body>
+</html>
+
+ex25
+-------
+<!-- example on multiple Selectors -->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex25</title>
+	    <link rel="icon" href="logo2.png"/>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+  <body>
+	 <H3>Hypertext Markup Language</h3>
+	 <h1>Cascading Style Sheets</h1>
+	 <h2>JavaScript</h2>
+	 <h3>BootStrap</h3>
+	<P>Allows 'Larger Font Size' and 'Smaller Font Size' commands in hex viewer mode.</P>
+	<img src="images/animal.jpg" class="c"/>
+  </body>
+</html>
+
+styles.css
+-------------
+/* creating external styles */
+/* universal  sel */
+*{
+	color:red;
+}
+/* tag sel */
+h3{
+	text-align:center;
+}
+/* class sel */
+.c{
+	width:500px;
+}
+/* note: save this file with a name "styles.css" in current location */

@@ -1,0 +1,228 @@
+ex1
+---
+<!-- example on heading tags -->
+<!DOCTYPE html>
+<html>
+	 <head>
+	 </head>
+ <body>
+	<h1>HyperText Markup Language</h1>  
+	<h2>HyperText Markup Language</h2>  
+	<h3>HyperText Markup Language</h3>  
+	<h4>HyperText Markup Language</h4>  
+	<h5>HyperText Markup Language</h5>  
+	<h6>HyperText Markup Language</h6>  
+	<h1>Cascading Style Sheets</h1>
+	<h3>JavaScript</h3>
+ </body>
+</html>
+
+ex2
+---
+<!-- example on p tag -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ </head>
+ <body>
+   <h3>No Cost EMI:</h3>
+	<p>In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.</p>
+
+	<h3>EMI on Debit Cards:</h3>
+	<p>Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.</p>
+
+	<h3>Mobile Exchange Offers:</h3>
+	<p>Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.</p>
+ </body>
+</html>
+
+ex3
+---
+<!-- example br tag & html enities  
+br tag ==> break line (enter key or \n)
+            ==> br used to move the cursor from current position to starting of next line
+		   ==> unpaired tag
+	Syn:	<br>  or  <br/>
+
+html entities:
+	==> entities nothing but html spe characters or operators
+    ==> every operator printing some symbol
+  Syn:		&operator;
+		&nbsp;  => 1 space
+		&copy;  => copyrights symbol
+		&trade;  => trademark symbol
+		&reg;	=> register sym
+		&euro;  
+		&pound;
+		&yen;		etc..
+	hexdec ope:		&#code;
+-->
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	 </head>
+  <body>
+		Red&nbsp;&nbsp;&nbsp;Apple<br>
+	    Yellow		Mango<br><br/><br/><br/>
+		Black  &nbsp;&nbsp;&nbsp;&nbsp;    Grape<bR>
+		100$ <bR> 100&euro; <br> 100&pound; <br> 100&yen; <bR>
+		Intel&reg; Xeon&copy; Scalable&trade; Processors <bR>
+		&lt;siva&gt; <br>
+		&lt;br&gt; tag used to line break <bR>
+		&frac14; &frac12; &frac34; &laquo; &raquo; &szlig; <br>
+		10&divide;4 <bR>
+		&#128521;			&#128531;			&#128541;			&#128521;					&#128551;			&#128561; <br>
+		100&#8377; <br>
+  </body>
+</html>
+
+ex4
+---
+<!--
+formating tags
+--------------
+these tags are used to change the look of data
+ strong ==> used to display the text in bold(strong) format
+			Syn:	<strong> text </strong>
+						<b> text </b>		(old version)
+
+ em	==> used to display the text in italic format
+			Syn:	<em> text </em>
+						<i> text </i>			(old version)
+
+ u  ==> underline
+	 ==> used to display the text with underline 
+			Syn:	<u> text </u>
+
+ strike ==> strikeout
+			 ==> used to strikeout text (it draws a line in the middile of text)
+			Syn:	<strike> text </strike>
+
+ sub ==> sub script
+		 ==>  used to print text below the base line
+			Syn:	<sub> text </sub>
+
+ sup ==> super script
+		 ==> used to print text above the base line
+			Syn:	<sup> text </sup>
+-->
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	 </head>
+  <body>
+		<strong>html</strong>
+		<b>html</b>
+		<br>
+		<em>CSS</em>
+		<i>CSS</i>
+		<br>
+		<u>JavaScript</u>
+		<br>
+		<strike>AngularJS</strike>
+		<br>
+		H<sub>2</sub>SO<sub>4</sub>
+		<br>
+		(a+b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab
+		<br>
+		<h1><em><u>Siva Kumar Y</u></em></h1>
+	
+		<h4>Samsung Galaxy S22</h4>
+		new price <strong>&#8377;80000</strong>, old price <strike>&#8377;100000</strike>  offer <em>20%</em>
+  </body>
+</html>
+
+ex5
+----
+<!-- example on label & span tags
+label tag ==> used to displaying prompting text tol user
+			     ==> gen this tag used in application form (UI)
+				 ==> its paired tag & inline tag
+			Syn:	<label> text </label>
+			
+span tag ==> span means small textual info
+				 ==> used for printing small text, error msg, highliting text
+				 ==> its paired tag & inline tag
+			Syn:	<span> text </span>
+-->
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	 </head>
+  <body>
+	<label>enter firstname</label>
+	<label>enter lastname</label>
+	<br>
+	<span>hello</span>
+	<span>invalid email id</span>
+	<br>
+
+	<p>EditPlus is <span style="background:yellow;">not free software</span>. You may use this software for evaluation purposes without charge for a period of <span style="background:yellow;">30 days</span>. If you use this software after the 30 day evaluation period, you <span style="background:yellow;">must buy the license</span>.</p>
+	<br>
+	<h3>Login Page</h3>
+	<label>Username</label> <span style="color:red;">*</span> <br>
+	<input type="text"/> <br>
+	<label>Password</label> <span style="color:red;">*</span> <br>
+	<input type="password"/> <br>
+	<button>Log In</button>
+
+  </body>
+</html>
+
+ex6
+----
+<!-- example on attributes
+attributes ==> are spe features of tag
+					==> to provide some settings of tag
+					==> used to customize default settings of tag
+					==> we two types of atttributes, those are:
+										> html attributes
+										> css attributes
+	Syn:	<tag  attribute="value"  attribute="value" ...>
+							ringtone="toofan"
+							wallpaper="abc.jpg"
+
+Note: > use space after every attribute
+		   > value should be enclosed with in "  " or '   '  or  w/o quotes
+		   > we use any no.of attributes and we follow any order
+
+html attributes:
+		> global attributes
+				==> these att we can use along with most of html tags
+				==> also called html "core" att
+				ex:  align title, id, name, class, style, width, height ...
+
+	    > specific attributes
+				==> these att we can use along with few html tags
+				==> these are personal settings of html tags
+			    ex: rel, href, action, maxlength, alt, enctype, method, ... 
+
+	    > event attributes
+				==> event means an operation/work/task performed by user
+				==> EA are used to call JS functions or to execute some JS logic from html program(webpages)
+				ex:  onclick, ondblclick, onsubmit, onfocus, onblur, oncopy,
+						onpaste, oncut, onchange, onload, onkeypress, 
+						onmousemove, onmouseover, onmouseout, onmousedrag...
+				==>	dynamic
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+	 </head>
+  <body>
+	<h1 align="center">NO WARRANTY</h1>
+		<!-- left/right/center/justify/top/middle/bottom -->
+
+  <p align="justify">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</p>
+
+		<h1 onclick="alert('welcome')">Click here</h1>
+		<h1 ondblclick="alert('Yeh, you double clicked me')">Dbl Click here</h1>
+  </body>
+</html>
+
+
+
+
+
+
+

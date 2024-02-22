@@ -1,0 +1,71 @@
+ex26
+-------
+<!-- CSS properties 
+color ==> this property used to change foreground color (data/text) of html elements
+		Syn:-	color:color-spe;
+
+background-color ==> this property used to change background color of html elements
+		Syn:-	background-color:color-spe;
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex26</title>
+	    <link rel="icon" href="logo2.png"/>
+	</head>
+  <body style="background-color:#ffccff;">
+	<!-- named color -->
+	<h1 style="color:yellow; background-color:red;">Hypertext Markup Language</h1>
+	<span style="color:yellow; background-color:red;">Cascading Style Sheets</span>
+
+	<!-- rgb color -->
+	<h1 style="background-color:rgb(30,22,1); color:rgb(190,188,220);">JavaScript</h1>
+
+	<!-- hexadec color -->
+	<h1 style="background-color:#12ab89; color:#ffeea3;">BootStrap</h1>
+
+	<p style="color:white; background-color:#3300ff;">EDITPLUS IS SOLD "AS IS" AND WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTIES EITHER EXPRESSED OR IMPLIED. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.</p>
+
+  </body>
+</html>
+
+ex27
+------
+<!-- CSS properties 
+border ==> this property used to draw a line around the html element
+			Syn:-		border:thick  style  color;
+			line styles => solid/dotted/dashed/double/inset/outset/groove/ridge/none
+
+border-radius ==> this property used to draw a curved/rounded edge borders
+			Syn:-		border-radius:Npx;				for 4 corners
+							border-radius:Xpx  Ypx;
+-->
+<!DOCTYPE html>
+<html lang="eg">
+	 <head>
+		<title>Ex27</title>
+	    <link rel="icon" href="logo2.png"/>
+	</head>
+  <body>
+		<h1 style="border:5px solid red;">Red Apples</h1>
+ 		<h1 style="border:5px dotted red;">Red Apples</h1>
+		<img src="images/nature2.jpg" width="300px" height="200px" style="border:10px ridge #3300ff;"/>
+
+		<p style="background-color:cyan; border-radius:10px;">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</p>
+
+		<p style="border:5px solid red; border-radius:15px;">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</p>
+
+		<img src="images/animal.jpg" width="300px" height="400px" style="border-radius:40px;"/>
+
+		<img src="images/animal.jpg" width="300px" height="400px" style="border-radius:40px  140px;"/>
+
+		<img src="images/animal.jpg" width="300px" height="300px" style="border-radius:50%; border:10px solid #ff00ff;"/>
+  </body>
+</html>
+
+
+
+
+
+
+		

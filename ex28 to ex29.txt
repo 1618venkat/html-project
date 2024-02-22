@@ -1,0 +1,63 @@
+ex28
+------
+<!-- CSS properties 
+box-shadow ==> this property used to apply shadow for any shape (html tag)
+			Syn:-		box-shadow:Xpx Ypx  color;
+
+text-shadow ==> this property used to apply shadow for text 
+			Syn:-		text-shadow:Xpx Ypx  color;
+-->
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+		<title>Ex28</title>
+	    <link rel="icon" href="logo2.png"/>
+	</head>
+  <body>
+		<p style="background-color:cyan; box-shadow:5px 6px;">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</p>
+	<h1 style="border:3px solid red; box-shadow:3px -3px #3300ff;">Hypertext Markup Language</h1>
+	<h1 style="text-shadow:4px 4px #00ff00;" align="center">Siva Kumar Y</h1>
+	<p align="center">	
+		<img src="images/flowers.webp" width="200px" height="200px" style="box-shadow:4px 4px red;"/>
+		<br> <br>
+		<img src="images/flowers.webp" width="200px" height="200px" style="box-shadow:1px 1px 2px 2px blue;" align="center"/>
+	</p>
+
+  </body>
+</html>
+
+ex29
+-------
+<!-- CSS Gradient colors
+linear-gradient 
+radial-gradient  
+background ==> this property used to specify gradient colors & images(wall paper)
+		Syn:	background:gradient-color;
+					background:url(filename);
+
+Note: while applying gradient colors we must use "background" prop in place of "background-color" prop
+-->
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+		<title>Ex29</title>
+	    <link rel="icon" href="logo2.png"/>
+	</head>
+  <body style="background: radial-gradient(circle, #cc0000,gray);">
+		<p style="background: linear-gradient(to left,  #3300ff,#ff00ff);">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</p>
+
+		<h1 style="background: linear-gradient(to bottom,  #ffff00, #33ffff ,#00ff00);">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</h1>	  
+
+		<h1 style="background: radial-gradient( #ff0000,#ffff00);">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</h1>	  
+
+		<h1 style="background: radial-gradient(circle, #ff9900, white, #00cc00);">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</h1>	  
+
+		<h1 style="background: linear-gradient(to left,  black 40%, #00ffff 60%); color:red;">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</h1>	  
+
+		<h1 style="background: linear-gradient(-30deg,  #ffff66 40%, #0066ff 60%); color:red;">Editplus Is Sold "As Is" And Without Any Warranty As To Merchantability Or Fitness For A Particular Purpose Or Any Other Warranties Either Expressed Or Implied. The Author Will Not Be Liable For Data Loss, Damages, Loss Of Profits Or Any Other Kind Of Loss While Using Or Misusing This Software.</h1>	  
+  </body>
+</html>
+
+
+
+		

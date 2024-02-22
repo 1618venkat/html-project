@@ -1,5 +1,12 @@
 ex19
 -------
+<<<<<<< HEAD
+=======
+this is venkat
+working in git 
+hii
+
+>>>>>>> c6576d54b7e8afc7ad27052b7853a8daee02fc5c
 <!-- example on fieldset & legend tags
 any css prop => 1word						widht height color border
 						=> multiple words

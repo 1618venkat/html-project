@@ -1,5 +1,8 @@
 ex19
 -------
+this is venkata working on git
+welcome to git world
+
 <<<<<<< HEAD
 =======
 
